@@ -1,6 +1,14 @@
 
 # Pruning Challenge
 
+## Table of content
+1. [Introduction](#introduction)
+2. [Configuration](#configuration)
+3. [Set-up](#set-up)
+4. [Calculations](#calculations)
+5. [Analysis](#analysis)
+
+
 ## Introduction
 The goal of this challenge is to test the two methods of pruning: weight and neuron pruning. Our goal is:
 - to compare two methods on how much network we can prune without losing the accuracy,
@@ -10,7 +18,7 @@ In this notebook I will try to adress those questions.
 
 To reproduce the results you have to simply run the `pruning.ipynb` notebook.
 
-## Config
+## Configuration
 Here we can define the details of the experiment.
 Wheter we want to use GPU or not, dataset we use and so on.
 Be default we don't use GPU, because we use a very small network and on CPU calculations will be more of a bottleneck and the differences in inference time betweend dense and sparse models will be more visible.
