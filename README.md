@@ -8,6 +8,8 @@ The goal of this challenge is to test the two methods of pruning: weight and neu
 - to see if we can leverage the pruning to make our network run faster.
 In this notebook I will try to adress those questions.
 
+To reproduce the results you have to simply run the `pruning.ipynb` notebook.
+
 ## Config
 Here we can define the details of the experiment.
 Wheter we want to use GPU or not, dataset we use and so on.
